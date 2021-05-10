@@ -1,0 +1,6 @@
+f=open(file="呸.jpg",mode="rb")
+f1=open(file="D:\\pythone\\baba.jpg",mode="wb")
+date=f.read()
+f1.write(date)
+f1.close()
+f.close()
